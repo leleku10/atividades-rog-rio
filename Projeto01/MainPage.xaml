@@ -4,7 +4,6 @@
              x:Class="MeuProjetoMaui.MainPage">
 
     <VerticalStackLayout Spacing="25" Padding="30">
-
         <Label 
             x:Name="welcomeLabel"
             Text="Bem-vindo ao MAUI!"
@@ -12,14 +11,16 @@
             HorizontalOptions="Center" />
 
         <Button 
-            Text="Clique aqui"
-            Clicked="OnButtonClick" />
-
+            Text="Clique para Alerta"
+            Clicked="OnAlertButtonClicked" />
+        
+        <Button 
+            Text="Clique para Confirmar"
+            Clicked="OnConfirmButtonClicked" />
 
         <Button 
-            Text="Ir para a segunda página"
-            Clicked="OnNavigateButtonClick" />
-
+            Text="Escolha uma opção"
+            Clicked="OnActionSheetButtonClicked" />
     </VerticalStackLayout>
 
 </ContentPage>
