@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="MeuProjetoMaui.SecondPage">
+
+    <VerticalStackLayout Spacing="25" Padding="30">
+
+        <!-- Rótulo para a segunda página -->
+        <Label 
+            Text="Você está na Segunda Página!"
+            FontSize="32"
+            HorizontalOptions="Center" />
+
+        <!-- Botão para voltar -->
+        <Button 
+            Text="Voltar"
+            Clicked="OnBackButtonClick" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
